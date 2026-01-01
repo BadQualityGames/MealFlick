@@ -102,7 +102,7 @@ function createSlide(meal) {
 
         <div class="meta">
           <span>⏱️ ${cookTime}</span>
-          <span>🔥 ${calories} kcal</span>
+          <span>🔥 ≈${calories} kcal</span>
         </div>
 
         <p class="ingredients">
@@ -141,8 +141,8 @@ function openRecipeModal(meal) {
           <div class="modal-tags">
             <span class="tag">${meal.strArea}</span>
             <span class="tag">${meal.strCategory}</span>
-            <span class="tag">⏱️ ${getCookingTime(allIngredients.length)}</span>
-            <span class="tag">🔥 ${calculateRealisticCalories(meal)} kcal</span>
+            <span class="tag">${getCookingTime(allIngredients.length)}</span>
+            <span class="tag">≈${calculateRealisticCalories(meal)} kcal</span>
           </div>
         </div>
       </div>
