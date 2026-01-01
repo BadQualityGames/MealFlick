@@ -135,7 +135,6 @@ function openRecipeModal(meal) {
       <button class="close-modal">&times;</button>
       
       <div class="modal-header">
-        <img src="${meal.strMealThumb}" alt="${meal.strMeal}" class="modal-image">
         <div class="modal-title">
           <h2>${meal.strMeal}</h2>
           <div class="modal-tags">
